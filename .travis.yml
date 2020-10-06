@@ -2,7 +2,7 @@
 os: linux
 
 #Dist params #
-dist: bionic
+dist: xenial
 
 # Linguagem Utilizada para Desenvolver a Aplicação                                                                                                                                                       
 language: python                                                                                                                                                                                         
