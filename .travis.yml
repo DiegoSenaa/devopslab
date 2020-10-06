@@ -1,9 +1,8 @@
+#OS param
+os: linux
+
 #Dist params
 dist:xenial
-
-#OS param
-os:
-  - linux
 
 # Linguagem Utilizada para Desenvolver a Aplicação                                                                                                                                                       
 language: python                                                                                                                                                                                         
