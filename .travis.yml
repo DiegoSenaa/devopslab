@@ -2,7 +2,7 @@
 os: linux
 
 #Dist params
-#dist:xenial
+dist:xenial
 
 # Linguagem Utilizada para Desenvolver a Aplicação                                                                                                                                                       
 language: python                                                                                                                                                                                         
@@ -25,4 +25,4 @@ deploy:
   api_key: $HEROKU_API_KEY
   edge: true 
   app: devopslab-diegosena
-  strategy: api
+  strategy: git
