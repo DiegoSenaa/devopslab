@@ -1,5 +1,5 @@
 #OS param
-#os: linux
+os: linux
 
 #Dist params
 #dist:xenial
@@ -25,4 +25,4 @@ deploy:
   api_key: $HEROKU_API_KEY
   edge: true 
   app: devopslab-diegosena
-  strategy: git
+  strategy: api
